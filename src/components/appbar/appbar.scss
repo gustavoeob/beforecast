@@ -1,0 +1,436 @@
+.appbar.navbar.navbar-expand.navbar-light {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(32, 32, 32, 0.407) 100%
+  );
+  position: fixed;
+  z-index: 10000;
+  padding-top: 15px;
+  .appbar-container.container {
+    width: 960px;
+    height: 45px;
+    display: flex;
+    gap: 50px;
+    .appbar-elements-box {
+      display: flex;
+      justify-content: space-around;
+      width: 400px;
+      align-items: center;
+      a {
+        color: white;
+
+        .app-title.title {
+          font-size: 1.5em;
+          margin: 0.25em 0;
+        }
+      }
+      .toggle-temp-box {
+        display: flex;
+        width: 65px;
+        .span-div {
+          color: white;
+        }
+      }
+      .language-selector-flag-box {
+        width: 77px;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        .fi {
+          width: 20px;
+        }
+        .select-lang-box {
+          background: none;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          color: white;
+          font-size: 1.2em;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .search-bar.css-b62m3t-container {
+      width: 650px;
+      margin: 0 auto;
+      .css-13cymwt-control,
+      .css-t3ipsp-control {
+        border-radius: 12px;
+        padding: 2px 8px;
+        font-size: 0.9em;
+        border: none;
+      }
+      #react-select-3-listbox {
+        border-radius: 18px !important;
+        overflow: hidden;
+        font-size: 0.95em;
+        .css-1n6sfyn-MenuList {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1260px) {
+  .appbar.navbar.navbar-expand.navbar-light {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(32, 32, 32, 0.407) 100%
+    );
+    position: fixed;
+    z-index: 10000;
+    padding-top: 15px;
+    .appbar-container.container {
+      width: 960px;
+      height: 45px;
+      .appbar-elements-box {
+        display: flex;
+        justify-content: space-evenly;
+        width: 400px;
+        align-items: center;
+        a {
+          color: white;
+
+          .app-title.title {
+            font-size: 1.5em;
+            margin: 0.25em 0;
+          }
+        }
+        .toggle-temp-box {
+          display: flex;
+          width: 65px;
+          .span-div {
+            color: white;
+          }
+        }
+        .language-selector-flag-box {
+          width: 77px;
+          display: flex;
+          justify-content: center;
+          gap: 12px;
+          .fi {
+            width: 20px;
+          }
+          .select-lang-box {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2em;
+            font-weight: 500;
+          }
+        }
+      }
+
+      .search-bar.css-b62m3t-container {
+        width: 60%;
+        margin: 0 auto;
+        .css-13cymwt-control,
+        .css-t3ipsp-control {
+          border-radius: 12px;
+          padding: 2px 8px;
+          font-size: 0.9em;
+          border: none;
+          outline: none;
+        }
+        #react-select-3-listbox {
+          border-radius: 18px !important;
+          overflow: hidden;
+          font-size: 0.95em;
+          .css-1n6sfyn-MenuList {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .appbar.navbar.navbar-expand.navbar-light {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(32, 32, 32, 0.407) 100%
+    );
+    position: fixed;
+    z-index: 10000;
+    padding-top: 15px;
+    .appbar-container.container {
+      width: 960px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      .appbar-elements-box {
+        display: flex;
+        justify-content: space-evenly;
+        width: 400px;
+        align-items: center;
+        margin: 0 auto;
+        a {
+          color: white;
+
+          .app-title.title {
+            font-size: 1.5em;
+            margin: 0.25em 0;
+          }
+        }
+        .toggle-temp-box {
+          display: flex;
+          width: 65px;
+          .span-div {
+            color: white;
+          }
+        }
+        .language-selector-flag-box {
+          width: 77px;
+          display: flex;
+          justify-content: center;
+          gap: 12px;
+          .fi {
+            width: 20px;
+          }
+          .select-lang-box {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2em;
+            font-weight: 500;
+          }
+        }
+      }
+
+      .search-bar.css-b62m3t-container {
+        width: 80%;
+        margin: 0 auto;
+        .css-13cymwt-control,
+        .css-t3ipsp-control {
+          border-radius: 20px;
+          padding: 2px 8px;
+          font-size: 0.9em;
+          border: none;
+          outline: none;
+        }
+        #react-select-3-listbox {
+          border-radius: 18px !important;
+          overflow: hidden;
+          font-size: 0.95em;
+          .css-1n6sfyn-MenuList {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .appbar.navbar.navbar-expand.navbar-light {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(32, 32, 32, 0.407) 100%
+    );
+    position: fixed;
+    z-index: 10000;
+    padding-top: 15px;
+    .appbar-container.container {
+      width: 410px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      .appbar-elements-box {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin: 0 0;
+        a {
+          color: white;
+
+          .app-title.title {
+            font-size: 1.375em;
+            margin: 0.25em 0;
+          }
+        }
+        .toggle-temp-box {
+          width: 90px;
+          display: flex;
+          justify-content:space-between;
+          .celsius-toggle {
+            font-size: 1.1em;
+            font-weight: 500;
+            position: relative;
+            left: 5px;
+            color: red;
+            &:hover {
+              font-size: 1.15em;
+              color: black;
+            }
+          }
+          .span-div {
+            color: white;
+            font-weight: 100;
+          }
+          .fahrenheit-toggle {
+            font-weight: 500;
+            font-size: 1.1em;
+            position: relative;
+            right: 8px;
+          }
+        }
+        .language-selector-flag-box {
+          width: 77px;
+          display: flex;
+          justify-content: center;
+          gap: 0px;
+          .fi {
+            width: 20px;
+          }
+          .select-lang-box {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2em;
+            font-weight: 500;
+            outline: none;
+            &:focus {
+              color: rgb(206, 206, 206);
+            }
+          }
+        }
+      }
+
+      .search-bar.css-b62m3t-container {
+        width: 100%;
+        margin: 0 auto;
+        .css-13cymwt-control,
+        .css-t3ipsp-control {
+          border-radius: 24px;
+          padding: 7px 8px;
+          font-size: 1em;
+          border: none;
+          outline: none;
+        }
+        #react-select-3-listbox {
+          border-radius: 18px !important;
+          overflow: hidden;
+          font-size: 0.95em;
+          .css-1n6sfyn-MenuList {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .appbar.navbar.navbar-expand.navbar-light {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(32, 32, 32, 0.407) 100%
+    );
+    position: fixed;
+    z-index: 10000;
+    padding-top: 15px;
+    .appbar-container.container {
+      width: 350px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      .appbar-elements-box {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin: 0 0;
+        a {
+          color: white;
+
+          .app-title.title {
+            font-size: 1.375em;
+            margin: 0.25em 0;
+          }
+        }
+        .toggle-temp-box {
+          .celsius-toggle {
+            font-size: 1.1em;
+            font-weight: 500;
+            position: relative;
+            left: 5px;
+            color: red;
+            &:hover {
+              font-size: 1.15em;
+              color: black;
+            }
+          }
+          .span-div {
+            color: white;
+            font-weight: 100;
+          }
+          .fahrenheit-toggle {
+            font-weight: 500;
+            font-size: 1.1em;
+            position: relative;
+            right: 8px;
+          }
+        }
+        .language-selector-flag-box {
+          width: 77px;
+          display: flex;
+          justify-content: center;
+          gap: 0px;
+          .fi {
+            width: 20px;
+          }
+          .select-lang-box {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2em;
+            font-weight: 500;
+            outline: none;
+            &:focus {
+              color: rgb(206, 206, 206);
+            }
+          }
+        }
+      }
+
+      .search-bar.css-b62m3t-container {
+        width: 100%;
+        margin: 0 auto;
+        .css-13cymwt-control,
+        .css-t3ipsp-control {
+          border-radius: 24px;
+          padding: 7px 8px;
+          font-size: 1em;
+          border: none;
+          outline: none;
+        }
+        #react-select-3-listbox {
+          border-radius: 18px !important;
+          overflow: hidden;
+          font-size: 0.95em;
+          .css-1n6sfyn-MenuList {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}

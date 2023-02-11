@@ -1,0 +1,43 @@
+.fake-date-container {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  .fake-day,
+  .fake-hour {
+    width: 150px;
+    height: 70px;
+    background-color: red;
+    border-radius: 20px;
+    background-size:500px 100%;
+    animation: shimmer 3.5s infinite linear;
+    background: linear-gradient(
+      to right,
+      #dfddddde 4%,
+      #e8e8e8 25%,
+      #c2c2c2 36%
+    );
+  }
+}
+@media (max-width: 1260px) {
+  .fake-date-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: -10px 0 10px;
+    .fake-day,
+    .fake-hour {
+      width: 160px;
+      height: 52px;
+      background-color: red;
+      border-radius: 20px;
+      background-size:500px 100%;
+      animation: shimmer 3.5s infinite linear;
+      background: linear-gradient(
+        to right,
+        #dfddddde 4%,
+        #e8e8e8 25%,
+        #c2c2c2 36%
+      );
+    }
+  }
+}

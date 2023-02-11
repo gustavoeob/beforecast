@@ -1,0 +1,481 @@
+.accordion {
+  z-index: 100;
+  width: 540px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .forecast-title {
+    margin-bottom: .95em;
+    font-weight: 500;
+  }
+  .accordion__item {
+    border-radius: 40px 40px 24px 24px;
+    .daily-item-box {
+      background: #fff;
+      padding: 6px 18px;
+      border-radius: 12px;
+      margin: 8px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #7a7b80;
+      
+      &:hover {
+        transition: all 0.2s ease-in-out;
+        background: rgb(255, 255, 255);
+                background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 1) 20%,
+          rgba(255, 255, 255, 0.262) 100%
+        );
+        transition: background .2s;
+        label {
+          color: #fff;
+          text-shadow: 0 0 18px #5e5e5ed0;
+
+        }
+      }
+
+      .daily-item {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        text-align: start;
+      }
+      .weather-icon-sm {
+        width: 40px;
+        pointer-events: none;
+      }
+      .forecast-day {
+        width: 85px;
+        position: relative;
+        top: 7px;
+      }
+    }
+    .forecast-temp {
+      display: flex;
+      gap: 20px;
+    }
+  }
+}
+
+.accordion__panel {
+  margin: 0 0 15px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  transition: all 0.25s ease;
+  color: #ffffff;
+  text-shadow: 0px 0px 28px black;
+  background-color: #ffffff43;
+  &:hover {
+    scale: 1.025;
+    transition: all 0.5s ease;
+  }
+  .panel-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .panel-one,
+    .panel-two {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      width: auto;
+      height: 60px;
+      text-align: start;
+    }
+  }
+}
+@media (max-width: 980px) {
+  .accordion {
+    z-index: 100;
+    width: 540px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-bottom: 35px;
+    .forecast-title {
+      margin-bottom: .95em;
+      font-weight: 500;
+    }
+    .accordion__item {
+      border-radius: 40px 40px 24px 24px;
+      .daily-item-box {
+        height: 62px;
+        background: #fff;
+        padding: 6px 18px;
+        border-radius: 12px;
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #7a7b80;
+        &:hover {
+          transition: all 0.2s ease-in-out;
+          background: rgb(255, 255, 255);
+                  background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 1) 20%,
+            rgba(255, 255, 255, 0.262) 100%
+          );
+          transition: background .2s;
+          label {
+            color: #fff;
+          }
+        }
+
+        .daily-item {
+          display: flex;
+          align-items: center;
+          gap: 18px;
+          text-align: start;
+        }
+        .weather-icon-sm {
+          width: 48px;
+          pointer-events: none;
+        }
+        .forecast-day {
+          width: 85px;
+          position: relative;
+          top: 7px;
+          scale: 1.1;
+        }
+      }
+      .forecast-temp {
+        display: flex;
+        gap: 20px;
+        font-size: 1.1em;
+
+      }
+    }
+  }
+  
+  .accordion__panel {
+    margin: 0 0 18px;
+    padding: 18px 20px;
+    border-radius: 12px;
+    transition: all 0.25s ease;
+    &:hover {
+      scale: 1.025;
+      transition: all 0.5s ease;
+    }
+    .panel-box {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .panel-one,
+      .panel-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: auto;
+        height: 60px;
+        text-align: start;
+        font-size: 1.1em;
+
+      }
+    }
+  }
+}
+@media (max-width: 780px) {
+  .accordion {
+    z-index: 100;
+    width: 540px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-bottom: 18px;
+    .forecast-title {
+      margin-bottom: .95em;
+      font-weight: 500;
+    }
+    .accordion__item {
+      border-radius: 40px 40px 24px 24px;
+      .daily-item-box {
+        height: 62px;
+        background: #fff;
+        padding: 6px 18px;
+        border-radius: 12px;
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #7a7b80;
+        &:hover {
+          transition: all 0.2s ease-in-out;
+          background: rgb(255, 255, 255);
+                  background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 1) 20%,
+            rgba(255, 255, 255, 0.262) 100%
+          );
+          transition: background .2s;
+          label {
+            color: #fff;
+          }
+        }
+
+        .daily-item {
+          display: flex;
+          align-items: center;
+          gap: 18px;
+          text-align: start;
+        }
+        .weather-icon-sm {
+          width: 48px;
+          pointer-events: none;
+        }
+        .forecast-day {
+          width: 85px;
+          position: relative;
+          top: 8px;
+          scale: 1.1;
+        }
+      }
+      .forecast-temp {
+        display: flex;
+        gap: 20px;
+        font-size: 1.1em;
+
+      }
+    }
+  }
+  
+  .accordion__panel {
+    margin: 0 0 18px;
+    padding: 18px 20px;
+    border-radius: 12px;
+
+
+    transition: all 0.25s ease;
+    &:hover {
+      scale: 1.025;
+      transition: all 0.5s ease;
+    }
+    .panel-box {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .panel-one,
+      .panel-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: auto;
+        height: 60px;
+        text-align: start;
+        font-size: 1.1em;
+
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .accordion {
+    z-index: 100;
+    width: 400px;
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-bottom: 18px;
+    .forecast-title {
+      margin-bottom: .95em;
+      font-weight: 500;
+    }
+    .accordion__item {
+      border-radius: 40px 40px 24px 24px;
+      .daily-item-box {
+        height: 58px;
+        background: #fff;
+        padding: 4px 12px 4px 8px;
+        border-radius: 12px;
+        margin: 5px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #7a7b80;
+        &:hover {
+          transition: all 0.2s ease-in-out;
+          background: rgb(255, 255, 255);
+                  background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 1) 20%,
+            rgba(255, 255, 255, 0.262) 100%
+            );
+            transition: background .2s;
+            label {
+            color: #fff;
+          }
+        }
+
+        .daily-item {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          text-align: start;
+        }
+        .weather-icon-sm {
+          width: 40px;
+          pointer-events: none;
+        }
+        .forecast-day {
+          width: 80px;
+          position: relative;
+          top: 8px;
+          scale: 1.0;
+          font-size: .925em;
+
+        }
+      }
+      .forecast-temp {
+        display: flex;
+        gap: 10px;
+        font-size: .925em;
+
+      }
+    }
+  }
+  
+  .accordion__panel {
+    margin: 0 0 18px;
+    padding: 10px 10px;
+    border-radius: 12px;
+
+
+    transition: all 0.25s ease;
+    &:hover {
+      scale: 1.025;
+      transition: all 0.5s ease;
+    }
+    .panel-box {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      .panel-one,
+      .panel-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: auto;
+        height: 60px;
+        text-align: start;
+        font-size: .925em;
+
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .accordion {
+    z-index: 100;
+    width: 360px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-bottom: 18px;
+    .forecast-title {
+      margin-bottom: .95em;
+      font-weight: 500;
+    }
+    .accordion__item {
+      border-radius: 40px 40px 24px 24px;
+      .daily-item-box {
+        height: 58px;
+        background: #fff;
+        padding: 4px 6px;
+        border-radius: 12px;
+        margin: 5px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #7a7b80;
+        &:hover {
+          transition: all 0.2s ease-in-out;
+          background: rgb(255, 255, 255);
+                  background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 1) 20%,
+            rgba(255, 255, 255, 0.262) 100%
+            );
+            transition: background .2s;
+            label {
+            color: #fff;
+          }
+        }
+
+        .daily-item {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          text-align: start;
+        }
+        .weather-icon-sm {
+          width: 40px;
+          pointer-events: none;
+        }
+        .forecast-day {
+          width: 80px;
+          position: relative;
+          top: 7px;
+          font-size: .9em;
+        }
+      }
+      .forecast-temp {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        font-size: .9em;
+        .forecast-min-max {
+          width: 40px;
+          .min-max-slash{
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+  
+  .accordion__panel {
+    margin: 10px 0 18px;
+    padding: 6px 4px;
+    border-radius: 12px;
+    transition: all 0.25s ease;
+    &:hover {
+      scale: 1.025;
+      transition: all 0.5s ease;
+    }
+    .panel-box {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      .panel-one,
+      .panel-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: fit-content;
+        height: 60px;
+        text-align: start;
+        font-size: .85em;
+
+      }
+    }
+  }
+}

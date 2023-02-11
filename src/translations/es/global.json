@@ -1,0 +1,29 @@
+{
+  "search-bar": {
+    "placeholder": "Buscar una ciudad"
+  },
+  "title": {
+    "weather": "Clima actual",
+    "forecast": "Pronóstico diario"
+  },
+  "details": {
+    "title": "Detalles",
+    "feels_like": "Sensación térmica",
+    "humidity": "Humedad",
+    "wind": "Viento",
+    "pressure": "Presión atmosférica",
+    "will_feel": "Se sentirá como"
+  },
+  "dayOfWeek": {
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
+  },
+  "current": {
+    "timezone": "Zona horaria actual"
+  }
+}

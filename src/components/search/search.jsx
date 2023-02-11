@@ -1,22 +1,20 @@
-import { useState } from "react";
+import { useState,  } from "react";
+import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import { AsyncPaginate } from "react-select-async-paginate";
 import { GEO_API_URL, geoApiOptions } from "../../api";
-import "./search.scss"
+import "./search.scss";
 
 const Search = ({ onSearchChange }) => {
+  const [t] = useTranslation("global")
   const [search, setSearch] = useState(null);
-
-  /**
-   * We're using the fetch API to make a GET request to the GeoNames API, passing in the inputValue as a
-   * query parameter
-   */
+  const navigate = useNavigate();
   const loadOptions = (inputValue) => {
     return fetch(
       `${GEO_API_URL}/cities?minPopulation=250000&namePrefix=${inputValue}`,
       geoApiOptions
     )
       .then((response) => response.json())
-      /* Mapping the response data to the options object. */
       .then((response) => {
         return {
           options: response.data.map((city) => {
@@ -29,15 +27,16 @@ const Search = ({ onSearchChange }) => {
       })
       .catch((err) => console.error(err));
   };
-
   const handleOnChange = (searchData) => {
     setSearch(searchData);
     onSearchChange(searchData);
+    const city = searchData.label.toLowerCase().split(",")[0];
+    navigate(`/weather/${city.replace(/\s+/g, "-")}`);
   };
-
+  
   return (
     <AsyncPaginate
-      placeholder="Search for a city"
+      placeholder={t("search-bar.placeholder")}
       debounceTimeout={600}
       value={search}
       onChange={handleOnChange}

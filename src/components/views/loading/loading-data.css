@@ -1,0 +1,93 @@
+.loading-view {
+  width: 960px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  z-index: 200;
+  gap: 25px;
+}
+
+.loading-view .home-background {
+  background-size: cover;
+}
+
+.loading-view .local-weather-title-loading {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1260px) {
+  .loading-view {
+    width: 960px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    z-index: 200;
+    gap: 25px;
+  }
+  .loading-view .local-weather-title-loading {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 980px) {
+  .loading-view {
+    width: 600px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    z-index: 200;
+    gap: 25px;
+  }
+  .loading-view .local-weather-title-loading {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .loading-view {
+    width: 350px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    z-index: 200;
+    gap: 25px;
+  }
+  .loading-view .curr-weather-time-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-top: 20px;
+  }
+  .loading-view .local-weather-title-loading {
+    margin-bottom: 0px;
+  }
+}
+/*# sourceMappingURL=loading-data.css.map */

@@ -1,0 +1,294 @@
+.accordion .local-weather-title.loading {
+  width: 180px;
+  height: 32px;
+  background-size: 180px 100%;
+  -webkit-animation: shimmer 5s infinite linear;
+          animation: shimmer 5s infinite linear;
+  border-radius: 5px;
+  margin-bottom: .9em;
+  background: -webkit-gradient(linear, left top, right top, color-stop(4%, #f6f6f6c2), color-stop(25%, #e8e8e8ec), color-stop(36%, #c2c2c2));
+  background: linear-gradient(to right, #f6f6f6c2 4%, #e8e8e8ec 25%, #c2c2c2 36%);
+}
+
+.accordion .accordion__item .daily-item-box.loading {
+  width: 500px;
+  height: 52px;
+}
+
+.accordion .accordion__item .daily-item-box.loading:hover {
+  width: 500px;
+  border-radius: 12px;
+  background-color: #fff;
+  cursor: default;
+}
+
+.accordion .accordion__item .daily-item-box.loading .daily-item .weather-icon-sm.loading {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.accordion .accordion__item .daily-item-box.loading .daily-item .forecast-day.loading {
+  width: 85px;
+  height: 12px;
+  border-radius: 4px;
+}
+
+.accordion .accordion__item .daily-item-box.loading .forecast-temp.loading .forecast-conditions.loading {
+  width: 80px;
+  height: 12px;
+  border-radius: 4px;
+}
+
+.accordion .accordion__item .daily-item-box.loading .forecast-temp.loading .forecast-min-max.loading {
+  width: 60px;
+  height: 12px;
+  border-radius: 4px;
+}
+
+.accordion .accordion__item .daily-item-box.loading .loading > * {
+  background: -webkit-gradient(linear, left top, right top, color-stop(4%, #dfdfdfbc), color-stop(25%, #e8e8e8ec), color-stop(36%, #c2c2c2a0));
+  background: linear-gradient(to right, #dfdfdfbc 4%, #e8e8e8ec 25%, #c2c2c2a0 36%);
+  background-size: 200px 100%;
+  -webkit-animation: shimmer 3.5s infinite linear;
+          animation: shimmer 3.5s infinite linear;
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: -500px 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -500px 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+
+@media (max-width: 1260px) {
+  .accordion .local-weather-title.loading {
+    width: 190px;
+    height: 32px;
+    background-size: 180px 100%;
+    -webkit-animation: shimmer 5s infinite linear;
+            animation: shimmer 5s infinite linear;
+    border-radius: 5px;
+    margin-bottom: .9em;
+    background: -webkit-gradient(linear, left top, right top, color-stop(4%, #f6f6f6c2), color-stop(25%, #e8e8e8ec), color-stop(36%, #c2c2c2));
+    background: linear-gradient(to right, #f6f6f6c2 4%, #e8e8e8ec 25%, #c2c2c2 36%);
+  }
+  .accordion .accordion__item .daily-item-box.loading {
+    width: 500px;
+    height: 52px;
+  }
+  .accordion .accordion__item .daily-item-box.loading:hover {
+    width: 500px;
+    border-radius: 12px;
+    background-color: #fff;
+    cursor: default;
+  }
+  .accordion .accordion__item .daily-item-box.loading .daily-item .weather-icon-sm.loading {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  .accordion .accordion__item .daily-item-box.loading .daily-item .forecast-day.loading {
+    width: 85px;
+    height: 18px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .forecast-temp.loading {
+    gap: 20px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .forecast-temp.loading .forecast-conditions.loading {
+    width: 90px;
+    height: 18px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .forecast-temp.loading .forecast-min-max.loading {
+    width: 90px;
+    height: 18px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .loading > * {
+    background: -webkit-gradient(linear, left top, right top, color-stop(4%, #dfdfdfbc), color-stop(25%, #e8e8e8ec), color-stop(36%, #c2c2c2a0));
+    background: linear-gradient(to right, #dfdfdfbc 4%, #e8e8e8ec 25%, #c2c2c2a0 36%);
+    background-size: 200px 100%;
+    -webkit-animation: shimmer 3.5s infinite linear;
+            animation: shimmer 3.5s infinite linear;
+  }
+  @-webkit-keyframes shimmer {
+    0% {
+      background-position: -500px 0;
+    }
+    100% {
+      background-position: 500px 0;
+    }
+  }
+  @keyframes shimmer {
+    0% {
+      background-position: -500px 0;
+    }
+    100% {
+      background-position: 500px 0;
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .accordion .local-weather-title.loading {
+    width: 180px;
+    height: 32px;
+    background-size: 180px 100%;
+    -webkit-animation: shimmer 5s infinite linear;
+            animation: shimmer 5s infinite linear;
+    border-radius: 5px;
+    margin-bottom: .9em;
+    background: -webkit-gradient(linear, left top, right top, color-stop(4%, #f6f6f6c2), color-stop(25%, #e8e8e8ec), color-stop(36%, #c2c2c2));
+    background: linear-gradient(to right, #f6f6f6c2 4%, #e8e8e8ec 25%, #c2c2c2 36%);
+  }
+  .accordion .accordion__item .daily-item-box.loading {
+    width: 500px;
+    height: 58px;
+  }
+  .accordion .accordion__item .daily-item-box.loading:hover {
+    width: 500px;
+    border-radius: 12px;
+    background-color: #fff;
+    cursor: default;
+  }
+  .accordion .accordion__item .daily-item-box.loading .daily-item .weather-icon-sm.loading {
+    width: 40px;
+    height: 40px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .daily-item .forecast-day.loading {
+    width: 85px;
+    height: 12px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .forecast-temp.loading .forecast-conditions.loading {
+    width: 80px;
+    height: 12px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .forecast-temp.loading .forecast-min-max.loading {
+    width: 60px;
+    height: 12px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .loading > * {
+    background: -webkit-gradient(linear, left top, right top, color-stop(4%, #dfdfdfbc), color-stop(25%, #e8e8e8ec), color-stop(36%, #c2c2c2a0));
+    background: linear-gradient(to right, #dfdfdfbc 4%, #e8e8e8ec 25%, #c2c2c2a0 36%);
+    background-size: 200px 100%;
+    -webkit-animation: shimmer 3.5s infinite linear;
+            animation: shimmer 3.5s infinite linear;
+  }
+}
+
+@media (max-width: 600px) {
+  .accordion .local-weather-title.loading {
+    width: 180px;
+    height: 32px;
+    background-size: 180px 100%;
+    -webkit-animation: shimmer 5s infinite linear;
+            animation: shimmer 5s infinite linear;
+    border-radius: 5px;
+    margin-bottom: .9em;
+    background: -webkit-gradient(linear, left top, right top, color-stop(4%, #f6f6f6c2), color-stop(25%, #e8e8e8ec), color-stop(36%, #c2c2c2));
+    background: linear-gradient(to right, #f6f6f6c2 4%, #e8e8e8ec 25%, #c2c2c2 36%);
+  }
+  .accordion .accordion__item .daily-item-box.loading {
+    width: 400px;
+    height: 58px;
+  }
+  .accordion .accordion__item .daily-item-box.loading:hover {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #fff;
+    cursor: default;
+  }
+  .accordion .accordion__item .daily-item-box.loading .daily-item .weather-icon-sm.loading {
+    width: 40px;
+    height: 40px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .daily-item .forecast-day.loading {
+    width: 85px;
+    height: 12px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .forecast-temp.loading .forecast-conditions.loading {
+    width: 80px;
+    height: 12px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .forecast-temp.loading .forecast-min-max.loading {
+    width: 60px;
+    height: 12px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .loading > * {
+    background: -webkit-gradient(linear, left top, right top, color-stop(4%, #dfdfdfbc), color-stop(25%, #e8e8e8ec), color-stop(36%, #c2c2c2a0));
+    background: linear-gradient(to right, #dfdfdfbc 4%, #e8e8e8ec 25%, #c2c2c2a0 36%);
+    background-size: 200px 100%;
+    -webkit-animation: shimmer 3.5s infinite linear;
+            animation: shimmer 3.5s infinite linear;
+  }
+}
+
+@media (max-width: 425px) {
+  .accordion .local-weather-title.loading {
+    width: 180px;
+    height: 32px;
+    background-size: 180px 100%;
+    -webkit-animation: shimmer 5s infinite linear;
+            animation: shimmer 5s infinite linear;
+    border-radius: 5px;
+    margin-bottom: .9em;
+    background: -webkit-gradient(linear, left top, right top, color-stop(4%, #f6f6f6c2), color-stop(25%, #e8e8e8ec), color-stop(36%, #c2c2c2));
+    background: linear-gradient(to right, #f6f6f6c2 4%, #e8e8e8ec 25%, #c2c2c2 36%);
+  }
+  .accordion .accordion__item .daily-item-box.loading {
+    width: 350px;
+    height: 58px;
+  }
+  .accordion .accordion__item .daily-item-box.loading:hover {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #fff;
+    cursor: default;
+  }
+  .accordion .accordion__item .daily-item-box.loading .daily-item .weather-icon-sm.loading {
+    width: 40px;
+    height: 40px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .daily-item .forecast-day.loading {
+    width: 85px;
+    height: 12px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .forecast-temp.loading .forecast-conditions.loading {
+    width: 80px;
+    height: 12px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .forecast-temp.loading .forecast-min-max.loading {
+    width: 60px;
+    height: 12px;
+    border-radius: 4px;
+  }
+  .accordion .accordion__item .daily-item-box.loading .loading > * {
+    background: -webkit-gradient(linear, left top, right top, color-stop(4%, #dfdfdfbc), color-stop(25%, #e8e8e8ec), color-stop(36%, #c2c2c2a0));
+    background: linear-gradient(to right, #dfdfdfbc 4%, #e8e8e8ec 25%, #c2c2c2a0 36%);
+    background-size: 200px 100%;
+    -webkit-animation: shimmer 3.5s infinite linear;
+            animation: shimmer 3.5s infinite linear;
+  }
+}
+/*# sourceMappingURL=fake-forecast.css.map */

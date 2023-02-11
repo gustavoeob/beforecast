@@ -1,0 +1,63 @@
+.loading-view {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 200;
+  gap: 25px;
+  .home-background{
+
+  background-size: cover;
+  }
+  .local-weather-title-loading{
+    margin-bottom:20px;
+  }
+}
+@media (max-width:1260px) {
+  .loading-view {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 200;
+    gap: 25px;
+    .local-weather-title-loading{
+      margin-bottom:20px;
+    }
+  }
+}
+@media (max-width:980px) {
+  .loading-view {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 200;
+    gap: 25px;
+    .local-weather-title-loading{
+      margin-bottom:20px;
+    }
+  }
+}
+@media (max-width:600px) {
+  .loading-view {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 200;
+    gap: 25px;
+    .curr-weather-time-box{
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top:20px;
+    }
+    .local-weather-title-loading{
+      margin-bottom:0px;
+    }
+  }
+}

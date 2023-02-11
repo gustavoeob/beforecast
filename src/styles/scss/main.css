@@ -1,0 +1,133 @@
+.app {
+  width: 100vw;
+  height: 110vh;
+  padding-top: 65px;
+}
+
+.app .home-background {
+  position: fixed;
+  z-index: -1000;
+  width: 100%;
+  height: 115vh;
+  -webkit-animation: moveIt 20s linear infinite;
+          animation: moveIt 20s linear infinite;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: -50px;
+  left: 0;
+  pointer-events: none;
+}
+
+.app .app-name {
+  font-size: 3.5em;
+  color: #fff;
+  margin: 30vh auto -5vh;
+  text-align: center;
+  text-shadow: 0px 0px 12px #4c4c4c;
+}
+
+.app .app-title {
+  z-index: 2000;
+  text-shadow: 0px 0px 12px black;
+}
+
+.app .app-text-cover {
+  color: #fff;
+  text-align: center;
+  margin-top: 5vh;
+  position: relative;
+  top: 180px;
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+.app .main-content-box {
+  width: 960px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  z-index: 200;
+  padding: 60px 0px 0;
+  gap: 25px;
+}
+
+@-webkit-keyframes moveIt {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes moveIt {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+@media (max-width: 1260px) {
+  .app .main-content-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    z-index: 200;
+  }
+}
+
+@media (max-width: 980px) {
+  .app .main-content-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    z-index: 200;
+    width: 600px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 30px 10px;
+  }
+  .app .main-content-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    z-index: 200;
+    width: 350px;
+    margin: 30px auto;
+  }
+  .app .app-name {
+    font-size: 2.5em;
+    margin-bottom: -5vh;
+  }
+  .app .app-text-cover {
+    padding: 0 40px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

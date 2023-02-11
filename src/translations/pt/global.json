@@ -1,0 +1,34 @@
+{
+  "search-bar": {
+  "placeholder": "Pesquisar uma cidade"
+  },
+  "title": {
+  "weather": "Clima atual",
+  "forecast": "Previsão diária"
+  },
+  "details": {
+  "title": "Detalhes",
+  "feels_like": "Sensação térmica",
+  "humidity": "Umidade",
+  "wind": "Vento",
+  "pressure": "Pressão atmosférica",
+  "will_feel": "Vai se sentir como"
+  },
+  "dayOfWeek": {
+  "monday": "Segunda-feira",
+  "tuesday": "Terça-feira",
+  "wednesday": "Quarta-feira",
+  "thursday": "Quinta-feira",
+  "friday": "Sexta-feira",
+  "saturday": "Sábado",
+  "sunday": "Domingo"
+  },
+  "current": {
+  "timezone": "Fuso horário atual"
+  }
+  }
+  
+  
+  
+  
+  

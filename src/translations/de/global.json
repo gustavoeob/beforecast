@@ -1,0 +1,29 @@
+{
+  "search-bar": {
+    "placeholder": "Suche nach einer Stadt"
+  },
+  "title": {
+    "weather": "Aktuelles Wetter",
+    "forecast": "Tägliche Vorhersage"
+  },
+  "details": {
+    "title": "Details",
+    "feels_like": "Fühlt sich an wie",
+    "humidity": "Feuchtigkeit",
+    "wind": "Wind",
+    "pressure": "Druck",
+    "will_feel": "Wird sich anfühlen wie"
+  },
+  "dayOfWeek": {
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag"
+  },
+  "current": {
+    "timezone": "Aktuelle Zeitzone"
+  }
+}

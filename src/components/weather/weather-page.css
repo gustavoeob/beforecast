@@ -1,0 +1,284 @@
+.weather-page-box {
+  width: 960px;
+  height: 100vh;
+  padding-top: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.weather-page-box .home-background {
+  position: fixed;
+  z-index: -1000;
+  width: 100%;
+  height: 115vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: -50px;
+  left: 0;
+  pointer-events: none;
+}
+
+.weather-page-box .main-content-box {
+  width: 960px;
+}
+
+.weather-page-box .main-content-box .weather-display-city {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 980px) {
+  .weather-page-box {
+    width: 550px;
+    height: 100vh;
+    padding-top: 125px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  .weather-page-box .home-background {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 131vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: -50px;
+    left: 0;
+  }
+  .weather-page-box .main-content-box {
+    width: 550px;
+  }
+  .weather-page-box .main-content-box .weather-display-city {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .weather-page-box {
+    width: 600px;
+    height: 100vh;
+    padding-top: 155px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 0px auto;
+  }
+  .weather-page-box .home-background {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 115vh;
+    -webkit-animation: moveIt 20s linear infinite;
+            animation: moveIt 20s linear infinite;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: -50px;
+    left: 0;
+  }
+  .weather-page-box .main-content-box {
+    width: 600px;
+  }
+  .weather-page-box .main-content-box .weather-display-city {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .weather-page-box {
+    width: 550px;
+    height: 100vh;
+    padding-top: 125px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  .weather-page-box .home-background {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 115vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: -50px;
+    left: 0;
+  }
+  .weather-page-box .main-content-box {
+    width: 350px;
+  }
+  .weather-page-box .main-content-box .weather-display-city {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .weather-page-box {
+    width: 350px;
+    height: 100vh;
+    padding-top: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 0px auto;
+  }
+  .weather-page-box .home-background {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 115vh;
+    -webkit-animation: moveIt 20s linear infinite;
+            animation: moveIt 20s linear infinite;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: -50px;
+    left: 0;
+  }
+  .weather-page-box .main-content-box {
+    width: 600px;
+  }
+  .weather-page-box .main-content-box .weather-display-city {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .weather-page-box .main-content-box .weather-display-city .curr-weather-time-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .weather-page-box {
+    width: 350px !important;
+    height: 100vh;
+    padding-top: 125px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  .weather-page-box .home-background {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 115vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: -50px;
+    left: 0;
+  }
+  .weather-page-box .main-content-box {
+    width: 350px !important;
+  }
+  .weather-page-box .main-content-box .weather-display-city {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .weather-page-box {
+    width: 350px;
+    height: 100vh;
+    padding-top: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 0px auto;
+  }
+  .weather-page-box .home-background {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 115vh;
+    -webkit-animation: moveIt 20s linear infinite;
+            animation: moveIt 20s linear infinite;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: -50px;
+    left: 0;
+  }
+  .weather-page-box .main-content-box {
+    width: 600px;
+  }
+  .weather-page-box .main-content-box .weather-display-city {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=weather-page.css.map */
