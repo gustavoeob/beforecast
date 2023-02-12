@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+  .app {
+    .main-content-box {
+      .curr-weather-time-box {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+      }
+    }
+  }
+}

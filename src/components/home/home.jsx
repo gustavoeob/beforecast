@@ -4,6 +4,7 @@ import { LocalTime } from "../elements/local-time";
 import { LocalForecast } from "../forecast/local/local-forecast";
 import { LoadingData } from "../views/loading/loading-data";
 import { LocalWeather } from "../weather/local/local-weather";
+import "./home.scss"
 
 export const Home = () => {
   const { localWeatherData, localForecastData, isLoading } =
@@ -17,7 +18,7 @@ export const Home = () => {
             <LoadingData />
           ) : (
             <>
-              <div>
+              <div className="curr-weather-time-box">
                 <LocalWeather data={localWeatherData} />
                 <LocalTime />
               </div>

@@ -7,7 +7,7 @@ export const LoadingData = () => {
   return (
     <div className="loading-view">
       <>
-        <div className=".curr-weather-time-box">
+        <div className="curr-weather-time-box">
           <FakeWeather />
           <FakeDate />
         </div>
