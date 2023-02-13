@@ -34,19 +34,15 @@ code {
 .color-10d,
 .color-02d,
 .color-03d,
-.color-50d {
+.color-50d,
+.color-09d,
+.color-11d,
+.color-13d {
   text-shadow: 0px 0px 30px #1010108f;
   color: #fff;
   font-size: 1.5em;
 }
 
-.color-09d,
-.color-11d,
-.color-13d {
-  text-shadow: 1px 1px 8px #ffffff;
-  color: rgb(46, 45, 45);
-  font-size: 1.5em;
-}
 
 a,
 h1,
@@ -62,6 +58,10 @@ p {
 .local-weather-title {
   color: #fff !important;
   font-size: 1.5em;
+}
+
+.current-location-icon {
+  width: 1.5rem;
 }
 
 .title {

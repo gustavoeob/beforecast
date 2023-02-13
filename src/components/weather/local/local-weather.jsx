@@ -11,7 +11,7 @@ import { GlobalContext } from "../../../context/global-context";
       {
       data.name && (
         <section className="current-weather-box">
-          <h2 className="local-weather-title title">{t("title.weather")}</h2>
+          <h2 className="local-weather-title title">{t("title.weather")} <img src="assets/icons/curr-location.png" alt="current location icon" className="current-location-icon"/> </h2>
           <section className="weather-widget">
             <div className="widget-top-box">
               <div className="weather-location">
