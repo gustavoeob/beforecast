@@ -1,4 +1,4 @@
-# Beforecast 
+# Beforecast ⛈️☀️❄
 ## Weather app made with React.js
 
 - - - -
@@ -32,7 +32,7 @@ To deliver current weather data for a searched city, this **React.js**-built wea
 
 ## Deployment 📱💻
 
-# https://beforecast.vercel.app
+# [go](http://beforecast.vercel.app){:target="_blank" rel="noopener"}
 
 ![beforecast-overview](https://user-images.githubusercontent.com/84198544/218589489-618aae28-322c-4350-a757-f1d909214c64.gif)
 
