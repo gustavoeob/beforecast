@@ -32,7 +32,7 @@ To deliver current weather data for a searched city, this **React.js**-built wea
 
 ## Deployment 📱💻
 
-# [go](http://beforecast.vercel.app){:target="_blank" rel="noopener"}
+# [Beforecast](http://beforecast.vercel.app)
 
 ![beforecast-overview](https://user-images.githubusercontent.com/84198544/218589489-618aae28-322c-4350-a757-f1d909214c64.gif)
 
