@@ -9,7 +9,6 @@ import "./home.scss"
 export const Home = () => {
   const { localWeatherData, localForecastData, isLoading } =
     useContext(GlobalContext);
-    console.log(localWeatherData)
   return (
     <>
       <main className="app">

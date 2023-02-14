@@ -30,7 +30,6 @@ export const Appbar = () => {
     setLang(e.target.value);
     i18n.changeLanguage(e.target.value.toLowerCase());
 
-    console.log(e.target.value);
   };
 
   return (

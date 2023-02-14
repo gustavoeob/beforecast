@@ -49,7 +49,6 @@ export const GlobalProvider = ({ children }) => {
   useEffect(() => {
     if (lat && lon && city) {
       handleOnSearchChange({ value: lat + " " + lon, label: city });
-      console.log(lang);
     }
     // eslint-disable-next-line
   }, [unit, lang]);
